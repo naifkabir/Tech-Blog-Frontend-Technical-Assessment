@@ -36,7 +36,7 @@ export default function ArticleModal({
     dateModified: post.updated_at,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.vercel.app",
+      "@id": "https://tech-blog-website-sigma.vercel.app/",
     },
   };
 
@@ -97,14 +97,14 @@ export default function ArticleModal({
               name: "Tech Blog",
               logo: {
                 "@type": "ImageObject",
-                url: "https://YOUR_DOMAIN.vercel.app/logo.png",
+                url: "https://tech-blog-website-sigma.vercel.app/logo.png",
               },
             },
             datePublished: post.created_at,
             dateModified: post.updated_at,
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": "https://YOUR_DOMAIN.vercel.app",
+              "@id": "https://tech-blog-website-sigma.vercel.app/",
             },
           }),
         }}

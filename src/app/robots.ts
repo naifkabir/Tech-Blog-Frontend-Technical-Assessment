@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://YOUR_DOMAIN.vercel.app/sitemap.xml",
+    sitemap: "https://tech-blog-website-sigma.vercel.app/sitemap.xml",
   };
 }
